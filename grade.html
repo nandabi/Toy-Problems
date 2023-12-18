@@ -1,0 +1,34 @@
+<html>
+<head>
+<script type="text/javascript">
+function fun() {
+    var msg="Please enter marks";}
+    var a= prompt(msg);
+
+      if(a>79){
+            alert('Grade A');
+      }
+       else if(a>=60 && a<=79)
+            {//60<percent<=79  -A
+            alert('Grade - B');}
+       else if(a>=49 && a<59)
+             {//49<percent<=59 -B
+             alert('Grade C');}
+       else if(a>=40 && a<49)
+            {//60<percent<=70  --C
+             alert('Grade - D');}
+       else if(a<40)
+            {//40<percent<=60  --D
+             alert('Grade - E');}
+    
+</script>
+</head>
+
+<body>
+    <p>Click to Check Grade</p>
+<form>
+    calling the function 
+<input type="button" value="Click me" onclick="fun();" />
+</form>
+</body>
+</html>
